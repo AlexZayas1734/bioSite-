@@ -1,0 +1,59 @@
+/* Header Styles */
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    margin: 20px;
+}
+
+main h1, main h2 {
+    text-align: center;
+    color: black;
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+main p {
+    text-align: center;
+    color: black;
+}
+
+/* Footer Styles */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
