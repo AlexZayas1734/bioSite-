@@ -1,6 +1,6 @@
 /* Header Styles */
 header {
-    background-color: black;
+    background-color: #7cb4eb;
     padding: 20px;
     text-align: center;
 }
@@ -17,12 +17,13 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: #fec76f;
     text-decoration: none;
     font-weight: bold;
 }
 
 header nav ul li a:hover {
+    color: #e16162;
     text-decoration: underline;
 }
 
@@ -33,7 +34,6 @@ main {
 
 main h1, main h2 {
     text-align: center;
-    color: black;
 }
 
 main img {
@@ -44,16 +44,36 @@ main img {
 
 main p {
     text-align: center;
-    color: black;
+    color: black
+}
+
+.prep {
+    width: 400px;
+}
+
+.practice, .victory {
+    width: 796px;
+}
+
+.portrait {
+    width: 398px;
+}
+
+.hit, .mvp, .hit {
+    width: 577px;
+}
+
+.team-victory {
+    width: 852px;
 }
 
 /* Footer Styles */
 footer {
-    background-color: black;
-    color: white;
+    background-color: #7cb4eb;
+    color: #fec76f;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    
     width: 100%;
     bottom: 0;
 }
