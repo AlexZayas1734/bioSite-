@@ -1,7 +1,7 @@
 /* Header Styles */
 header {
     background-color: #7cb4eb;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -20,6 +20,8 @@ header nav ul li a {
     color: #fec76f;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px; /* Increased padding for better clickability */
+    display: inline-block; /* Ensures padding affects click area */
 }
 
 header nav ul li a:hover {
@@ -44,7 +46,7 @@ main img {
 
 main p {
     text-align: center;
-    color: black
+    color: black;
 }
 
 .prep {
